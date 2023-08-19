@@ -3,6 +3,7 @@ import logging
 from twilio.twiml.messaging_response import MessagingResponse
 import random
 import datetime
+import re
 
 app = Flask(__name__)
 logging.basicConfig(filename='chatbot.log', level=logging.INFO)
@@ -31,6 +32,14 @@ STATE_MENU5 = 'state_menu5'
 
 # STATES MENU 6
 STATE_FEEDBACK_RATING = 'state_feedback_rating'
+STATE_FEEDBACK_COMMENT = 'state_feedback_comment'
+
+# Log function
+def log_message(direction, phone_number, message):
+    if direction == "incoming":
+        logging.info(f"User ({phone_number}) Input: {message}")
+    elif direction == "outgoing":
+        logging.info(f"Bot Response to ({phone_number}): {message}")
 
 def send_main_menu():
     return """
@@ -43,22 +52,36 @@ E você pode me chamar a qualquer momento para saber sobre:
 *3 -* Orientações: Números de órgãos de apoio em situações de risco do seu território.
 *4 -* Existe algum problema no seu bairro com lixo, esgoto, risco de deslizamento ou desmatamento? Vem me contar!
 *5 -* Se informe sobre as ações do Instituto DuClima.
-*6 -* Me conte o que achou de nossas ações._
+*6 -* Me conte o que achou da Pré-Conferência realizada no Rio de Janeiro._
 
 _Por favor, responda com o número do item que deseja e vou adorar te ajudar! Foco no clima e nos nossos_ ✊🏿💚
 """
 
-def handle_state_main_menu(incoming_msg, user):
-    if incoming_msg in ["oie", "olá", "oi", "0"]:
+def handle_state_main_menu(incoming_msg, user, phone_number):
+    greeting_pattern = re.compile(r'^(oi|olá|oie|hey|hello|eai|eaí|fala|boa|tudo bem|tudo bom|Como vai?|como vai?|oiiiieee|oiii|ooi|).*$', re.I)
+
+    
+    if greeting_pattern.match(incoming_msg) or incoming_msg == "0":
         return send_main_menu(), STATE_MAIN_MENU
     
     elif incoming_msg == "1":
         tips = [
-            "*Dica 1:* Faça isso...",
-            "*Dica 2:* Faça aquilo...",
-            "*Dica 3:* Considere isso...",
-            "*Dica 4:* Considere isso...",
+            "🌱 De onde vem a comida que você come? Da indústria ou da terra? Plantar os alimentos que vão pra sua mesa não precisa ser difícil nem de muito espaço! Você pode começar construindo uma mini horta com vegetais como alface, couve, tomate cereja e outros temperos. É sustentável e mais barato 🥬🍅.",
+            
+            "🚲 Se puder, vá de bike ou a pé: Opte por meios de transporte ecológicos, economize grana e faça um exercício saudável 💪🚴‍♀️",
+            
+            "💡 Economize energia: Apague as luzes e desligue aparelhos quando não estiver usando. Ajudar o planeta é bom pra todos 💡🌍",
+            
+            "🗣️ Junte a comunidade: Participe de movimentos sociais e lute por políticas públicas que cuidem do clima e da nossa quebrada 👥📢",
             "*Dica 5:* Considere isso...",
+            
+            "🔄 Reutilize e recicle: Antes de jogar fora, pense se dá pra reutilizar ou reciclar ♻️🗑️",
+            
+            "📚 Conhecimento é poder: Estude sobre o clima e Racismo Ambiental. O saber fortalece nossa luta 📚💪",
+
+            "🍴 Compartilhe a comida: Se tiver sobrando, compartilhe com quem precisa. Vamos combater o desperdício e a fome 🍽️🤝",
+            
+            "🤝 Organize a galera: Mobilize a comunidade para ações sustentáveis. Juntos, somos mais fortes 🤝🌍",
         ]
         return random.choice(tips) + text_backmenu, STATE_MAIN_MENU
     
@@ -90,18 +113,18 @@ def handle_state_main_menu(incoming_msg, user):
         )
     
     elif incoming_msg == "6":
-        return "De 0 a 10, quanto você recomendaria a Pré-Conferência de Racismo Ambiental, Eventos Climáticos Extremos e Justiça Climática do Rio de Janeiro para seus amigos ou parentes?" + text_backmenu, STATE_FEEDBACK_RATING
+        return "*6 -* De 1 a 10, quanto você recomendaria a Pré-Conferência de Racismo Ambiental, Eventos Climáticos Extremos e Justiça Climática do Rio de Janeiro para seus amigos e parentes?" + text_backmenu, STATE_FEEDBACK_RATING
             
 # STATES OF SUBMENU 4    
-def handle_state_report_city(incoming_msg, user):
+def handle_state_report_city(incoming_msg, user, phone_number):
     user["city"] = incoming_msg  # Armazena o município informado pelo usuário
     return "Em qual bairro você encontrou esse problema?" + text_backmenu, STATE_REPORT_NEIGHBORHOOD
 
-def handle_state_report_neighborhood(incoming_msg, user):
+def handle_state_report_neighborhood(incoming_msg, user, phone_number):
     user["neighborhood"] = incoming_msg  # Armazena o bairro informado pelo usuário
-    return "Qual o CEP do local em que o problema está acontecendo?" + text_backmenu, STATE_REPORT_ZIP
+    return "Qual o *CEP* do local em que o problema está acontecendo?" + text_backmenu, STATE_REPORT_ZIP
 
-def handle_state_report_zip(incoming_msg, user):
+def handle_state_report_zip(incoming_msg, user, phone_number):
     user["zip"] = incoming_msg  # Armazena o CEP informado pelo usuário
     response = """
 Agora nos diga qual tipo de problema você está enfrentando na sua comunidade?
@@ -112,9 +135,12 @@ Agora nos diga qual tipo de problema você está enfrentando na sua comunidade?
 *4 - Risco de deslizamento*
 *5 - Outros*
 """ + text_backmenu
+    
+    
+
     return response, STATE_REPORT_PROBLEM
 
-def handle_state_report_problem(incoming_msg, user):
+def handle_state_report_problem(incoming_msg, user, phone_number):
         problems = {
             "1": "Falta de saneamento de água",
             "2": "Falta de saneamento de esgoto",
@@ -130,10 +156,10 @@ def handle_state_report_problem(incoming_msg, user):
             return "Opção inválida. Por favor, selecione uma opção de 1 a 5." + text_backmenu, STATE_REPORT_PROBLEM
 
 # STATES OF MENU 5
-def handle_state_menu5(incoming_msg, user):
+def handle_state_menu5(incoming_msg, user, phone_number):
     if incoming_msg == "1":
         return ("""
-*5.1 A Pré-Conferência no Rio de Janeiro* aconteceu dia 19 de agosto de 2023, reuniu XPTO pessoas, alcançou mais de 200 pessoas, abordando a necessidade de combater o racismo ambiental, eventos climáticos extremos e promoção de uma justiça climática antirracista. Foi um passo essencial para a construção de um presente menos desigual 💚🌎
+*5.1 A Pré-Conferência no Rio de Janeiro aconteceu dia 19 de agosto de 2023 e recebeu mais mais de 350 pessoas, abordando a necessidade de combater o racismo ambiental, eventos climáticos extremos e promoção de uma justiça climática antirracista. Foi um passo essencial para a construção de um presente menos desigual 💚🌎
 """ + text_backmenu), STATE_MAIN_MENU
 
     elif incoming_msg == "2":
@@ -164,15 +190,21 @@ def handle_state_feedback_rating(incoming_msg, user, phone_number):
     try:
         rating = int(incoming_msg)
         if 0 <= rating <= 10:
-            # Remover o usuário de user_data para finalizar a sessão
-            if phone_number in user_data:
-                del user_data[phone_number]
-            return "Obrigado pela opinião, ela é muito importante para nós! Até a próxima!", None
+            user["rating"] = rating
+            return "Obrigado pela classificação!\n\nQuais temas e ações práticas de demandas dos territórios e grupos mais afetados precisam ser abordadas em ações de incidência e justiça climática antirracista pelo Duclima?", STATE_FEEDBACK_COMMENT
         else:
             return "Por favor, forneça uma classificação de 0 a 10." + text_backmenu, STATE_FEEDBACK_RATING
     except ValueError:
         return "Por favor, forneça uma classificação válida de 0 a 10." + text_backmenu, STATE_FEEDBACK_RATING
 
+def handle_state_feedback_comment(incoming_msg, user, phone_number):
+    # Armazenar o feedback do usuário (se necessário)
+    user["feedback"] = incoming_msg
+
+    # Remover o usuário de user_data para finalizar a sessão
+    if phone_number in user_data:
+        del user_data[phone_number]
+    return "Obrigado pelo seu feedback! Ele é muito importante para nós. Até a próxima!", None
 
 # Funções de manipulador de estado para os outros estados conforme necessário
 state_handlers = {
@@ -186,12 +218,14 @@ state_handlers = {
     STATE_MENU5: handle_state_menu5,
     # states handler menu 6
     STATE_FEEDBACK_RATING: handle_state_feedback_rating,
+    STATE_FEEDBACK_COMMENT: handle_state_feedback_comment,
 }
 
 @app.route('/bot', methods=['POST'])
 def bot():
     phone_number = request.values.get('From', '')  # <--- DEFINIÇÃO DE phone_number DEVE SER A PRIMEIRA COISA
     incoming_msg = request.values.get('Body', '').strip().lower()
+    log_message("incoming", phone_number, incoming_msg)
     resp = MessagingResponse()
     msg = resp.message()
 
@@ -206,7 +240,10 @@ def bot():
         time_since_last_message = now - user_data[phone_number].get("last_message_time", now)
 
         # Aplicar temporizador de sessão
-        if time_since_last_message > datetime.timedelta(minutes=5):  # Tempo de sessão de 5 minutos
+        if time_since_last_message > datetime.timedelta(minutes=2):  # Tempo de sessão de 2 minutos
+            # Aqui é onde você adiciona o log
+            logging.info(f"Sessão expirada para o número de telefone {phone_number}")
+            
             del user_data[phone_number]
             msg.body("Sua sessão expirou. Por favor, comece novamente.")
             return str(resp)
@@ -227,14 +264,16 @@ def bot():
             "message_count": 1
         }
 
-    if current_state == STATE_FEEDBACK_RATING:
+    if current_state in state_handlers:
         response, next_state = state_handlers[current_state](incoming_msg, user, phone_number)
     else:
-        response, next_state = state_handlers[current_state](incoming_msg, user)
+        response, next_state = state_handlers[incoming_msg](incoming_msg, user, phone_number)
 
     if next_state:
         user["state"] = next_state
         user_data[phone_number] = user
+
+    log_message("outgoing", phone_number, response)
 
     msg.body(response)
     return str(resp)

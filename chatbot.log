@@ -278,3 +278,833 @@ INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.p
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 126-349-406
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:47:56] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:49:49] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:49:58] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:50:10] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:50:26] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:50:37] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:51:02] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:51:05] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:51:11] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:51:14] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:51:19] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:51:22] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:51:28] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:51:45] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:52:08] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:52:19] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:52:28] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:52:33] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:52:42] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:55:01] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:55:03] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 11:56:50] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 12:01:56] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 12:01:59] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 12:03:12] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 12:03:28] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 13:04:12] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 13:04:21] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 13:04:25] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 13:45:14] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 13:59:26] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:07:36] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:09:13] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:11:06] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:11:08] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:11:12] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:18:39] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:18:43] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:18:46] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:24:00] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:24:03] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:24:15] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:25:06] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:31:09] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:31:12] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:31:14] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:31:21] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:32:03] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:32:06] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:32:08] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:32:12] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:33:28] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:33:30] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:33:32] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:33:34] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:44:48] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:44:50] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:44:56] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:45:03] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:45:15] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:45:21] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:45:23] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:45:32] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:45:33] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:53:31] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:53:32] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:53:36] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:53:38] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:53:41] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:58:26] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:58:28] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:58:30] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 14:58:31] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:02:41] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:06:51] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:06:53] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:06:55] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:06:57] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:09:41] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:13:38] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:16:31] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:16:43] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:23:27] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:23:30] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:23:33] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:23:37] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:35:50] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:35:51] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:35:55] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:35:57] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:40:08] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:40:53] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:41:00] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:41:11] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:46:40] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:46:45] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:46:47] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:46:49] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:47:23] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:47:24] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:47:25] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:48:11] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:48:12] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:48:13] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:49:31] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:49:35] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:52:40] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:52:46] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 15:52:52] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:04:46] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:10:47] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:10:52] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:11:25] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:12:58] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:13:19] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:13:29] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:13:37] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:14:39] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:14:42] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:15:08] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:15:16] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:15:23] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:15:28] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:15:36] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:15:40] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:15:43] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:15:44] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:15:46] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:15:47] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:15:48] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:15:50] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:15:53] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:15:55] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521993233208): 22222222
+INFO:root:Bot: 
+Agora nos diga qual tipo de problema você está enfrentando na sua comunidade?
+
+*1 - Falta de saneamento de água*
+*2 - Falta de saneamento de esgoto*
+*3 - Desmatamento de área verde*
+*4 - Risco de deslizamento*
+*5 - Outros*
+
+
+Caso queira voltar para o Menu Inicial/Principal digite *0*
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:15:59] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:19:44] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521993233208): 1
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:19:50] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:20:00] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:root:User (whatsapp:+5521999917308): 6
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:20:07] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:20:08] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:20:11] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521999917308): 6
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:20:15] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:20:45] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:root:User (whatsapp:+5521993233208): 1
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:20:51] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:20:56] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:21:03] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:21:11] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:root:User (whatsapp:+5521993233208): oi
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:21:37] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:21:50] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:root:User (whatsapp:+5521999917308): 5
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:22:51] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:23:06] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521993233208): 2
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:23:09] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:23:39] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:23:40] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:23:44] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:23:46] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:23:47] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:23:48] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:23:50] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:24:03] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:24:32] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:24:46] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521999917308): 6
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:24:50] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:25:00] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:root:User (whatsapp:+5511911486081): 6
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:26:01] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:26:08] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:26:29] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:root:User (whatsapp:+5521993233208): 6
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:27:58] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:28:53] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:28:54] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:28:56] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:28:57] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:root:User (whatsapp:+5521993233208) Input: oi
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:31:33] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:31:43] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521993233208) Input: 0
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:31:55] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:root:User (whatsapp:+5521993233208) Input: oi
+INFO:root:Bot Response to (whatsapp:+5521993233208): 
+Oie! Sou a *Aya*, a ativista climática digital que veio pra somar! 😄💚
+Tô aqui pra te ajudar com informações sobre o clima e meio ambiente no seu dia a dia.
+E você pode me chamar a qualquer momento para saber sobre:
+
+*1 -* Vamos revolucionar nossa quebrada: Dicas incríveis para proteger e lutar pelo meio ambiente.
+*2 -* Baixe nosso ebook para entender como agir para se proteger em desastres socioambientais e eventos extremos.
+*3 -* Orientações: Números de órgãos de apoio em situações de risco do seu território.
+*4 -* Existe algum problema no seu bairro com lixo, esgoto, risco de deslizamento ou desmatamento? Vem me contar!
+*5 -* Se informe sobre as ações do Instituto DuClima.
+*6 -* Me conte o que achou da Pré-Conferência realizada no Rio de Janeiro._
+
+_Por favor, responda com o número do item que deseja e vou adorar te ajudar! Foco no clima e nos nossos_ ✊🏿💚
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:33:40] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521993233208) Input: 1
+INFO:root:Bot Response to (whatsapp:+5521993233208): 🌱 De onde vem a comida que você come? Da indústria ou da terra? Plantar os alimentos que vão pra sua mesa não precisa ser difícil nem de muito espaço! Você pode começar construindo uma mini horta com vegetais como alface, couve, tomate cereja e outros temperos. É sustentável e mais barato 🥬🍅.
+
+Caso queira voltar para o Menu Inicial/Principal digite *0*
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:34:15] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521993233208) Input: 0
+INFO:root:Bot Response to (whatsapp:+5521993233208): 
+Oie! Sou a *Aya*, a ativista climática digital que veio pra somar! 😄💚
+Tô aqui pra te ajudar com informações sobre o clima e meio ambiente no seu dia a dia.
+E você pode me chamar a qualquer momento para saber sobre:
+
+*1 -* Vamos revolucionar nossa quebrada: Dicas incríveis para proteger e lutar pelo meio ambiente.
+*2 -* Baixe nosso ebook para entender como agir para se proteger em desastres socioambientais e eventos extremos.
+*3 -* Orientações: Números de órgãos de apoio em situações de risco do seu território.
+*4 -* Existe algum problema no seu bairro com lixo, esgoto, risco de deslizamento ou desmatamento? Vem me contar!
+*5 -* Se informe sobre as ações do Instituto DuClima.
+*6 -* Me conte o que achou da Pré-Conferência realizada no Rio de Janeiro._
+
+_Por favor, responda com o número do item que deseja e vou adorar te ajudar! Foco no clima e nos nossos_ ✊🏿💚
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:34:27] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521993233208) Input: 6
+INFO:root:Bot Response to (whatsapp:+5521993233208): *6 -* De 1 a 10, quanto você recomendaria a Pré-Conferência de Racismo Ambiental, Eventos Climáticos Extremos e Justiça Climática do Rio de Janeiro para seus amigos e parentes?
+
+Caso queira voltar para o Menu Inicial/Principal digite *0*
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:34:50] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521993233208) Input: 10
+INFO:root:Bot Response to (whatsapp:+5521993233208): Obrigado pela classificação!
+
+Quais temas e ações práticas de demandas dos territórios e grupos mais afetados precisam ser abordadas em ações de incidência e justiça climática antirracista pelo Duclima?
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:34:58] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521999917308) Input: oi aya
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:36:29] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:root:User (whatsapp:+5521999917308) Input: oi
+INFO:root:Bot Response to (whatsapp:+5521999917308): 
+Oie! Sou a *Aya*, a ativista climática digital que veio pra somar! 😄💚
+Tô aqui pra te ajudar com informações sobre o clima e meio ambiente no seu dia a dia.
+E você pode me chamar a qualquer momento para saber sobre:
+
+*1 -* Vamos revolucionar nossa quebrada: Dicas incríveis para proteger e lutar pelo meio ambiente.
+*2 -* Baixe nosso ebook para entender como agir para se proteger em desastres socioambientais e eventos extremos.
+*3 -* Orientações: Números de órgãos de apoio em situações de risco do seu território.
+*4 -* Existe algum problema no seu bairro com lixo, esgoto, risco de deslizamento ou desmatamento? Vem me contar!
+*5 -* Se informe sobre as ações do Instituto DuClima.
+*6 -* Me conte o que achou da Pré-Conferência realizada no Rio de Janeiro._
+
+_Por favor, responda com o número do item que deseja e vou adorar te ajudar! Foco no clima e nos nossos_ ✊🏿💚
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:36:35] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521999917308) Input: 6
+INFO:root:Bot Response to (whatsapp:+5521999917308): *6 -* De 1 a 10, quanto você recomendaria a Pré-Conferência de Racismo Ambiental, Eventos Climáticos Extremos e Justiça Climática do Rio de Janeiro para seus amigos e parentes?
+
+Caso queira voltar para o Menu Inicial/Principal digite *0*
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:36:40] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521986639033) Input: olá aya, tudo bom?
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:37:12] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:root:User (whatsapp:+5521993233208) Input: 2
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:37:26] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521993233208) Input: oi
+INFO:root:Bot Response to (whatsapp:+5521993233208): 
+Oie! Sou a *Aya*, a ativista climática digital que veio pra somar! 😄💚
+Tô aqui pra te ajudar com informações sobre o clima e meio ambiente no seu dia a dia.
+E você pode me chamar a qualquer momento para saber sobre:
+
+*1 -* Vamos revolucionar nossa quebrada: Dicas incríveis para proteger e lutar pelo meio ambiente.
+*2 -* Baixe nosso ebook para entender como agir para se proteger em desastres socioambientais e eventos extremos.
+*3 -* Orientações: Números de órgãos de apoio em situações de risco do seu território.
+*4 -* Existe algum problema no seu bairro com lixo, esgoto, risco de deslizamento ou desmatamento? Vem me contar!
+*5 -* Se informe sobre as ações do Instituto DuClima.
+*6 -* Me conte o que achou da Pré-Conferência realizada no Rio de Janeiro._
+
+_Por favor, responda com o número do item que deseja e vou adorar te ajudar! Foco no clima e nos nossos_ ✊🏿💚
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:37:29] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521993233208) Input: 6
+INFO:root:Bot Response to (whatsapp:+5521993233208): *6 -* De 1 a 10, quanto você recomendaria a Pré-Conferência de Racismo Ambiental, Eventos Climáticos Extremos e Justiça Climática do Rio de Janeiro para seus amigos e parentes?
+
+Caso queira voltar para o Menu Inicial/Principal digite *0*
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:37:30] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521993233208) Input: 10
+INFO:root:Bot Response to (whatsapp:+5521993233208): Obrigado pela classificação!
+
+Quais temas e ações práticas de demandas dos territórios e grupos mais afetados precisam ser abordadas em ações de incidência e justiça climática antirracista pelo Duclima?
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:37:32] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521986639033) Input: oiiii
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:37:34] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:root:User (whatsapp:+5521993233208) Input: dadasda dorei
+INFO:root:Bot Response to (whatsapp:+5521993233208): Obrigado pelo seu feedback! Ele é muito importante para nós. Até a próxima!
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:37:37] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:root:User (whatsapp:+5521993233208) Input: oi
+INFO:root:Bot Response to (whatsapp:+5521993233208): 
+Oie! Sou a *Aya*, a ativista climática digital que veio pra somar! 😄💚
+Tô aqui pra te ajudar com informações sobre o clima e meio ambiente no seu dia a dia.
+E você pode me chamar a qualquer momento para saber sobre:
+
+*1 -* Vamos revolucionar nossa quebrada: Dicas incríveis para proteger e lutar pelo meio ambiente.
+*2 -* Baixe nosso ebook para entender como agir para se proteger em desastres socioambientais e eventos extremos.
+*3 -* Orientações: Números de órgãos de apoio em situações de risco do seu território.
+*4 -* Existe algum problema no seu bairro com lixo, esgoto, risco de deslizamento ou desmatamento? Vem me contar!
+*5 -* Se informe sobre as ações do Instituto DuClima.
+*6 -* Me conte o que achou da Pré-Conferência realizada no Rio de Janeiro._
+
+_Por favor, responda com o número do item que deseja e vou adorar te ajudar! Foco no clima e nos nossos_ ✊🏿💚
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:42:37] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521993233208) Input: olá
+INFO:root:Bot Response to (whatsapp:+5521993233208): 
+Oie! Sou a *Aya*, a ativista climática digital que veio pra somar! 😄💚
+Tô aqui pra te ajudar com informações sobre o clima e meio ambiente no seu dia a dia.
+E você pode me chamar a qualquer momento para saber sobre:
+
+*1 -* Vamos revolucionar nossa quebrada: Dicas incríveis para proteger e lutar pelo meio ambiente.
+*2 -* Baixe nosso ebook para entender como agir para se proteger em desastres socioambientais e eventos extremos.
+*3 -* Orientações: Números de órgãos de apoio em situações de risco do seu território.
+*4 -* Existe algum problema no seu bairro com lixo, esgoto, risco de deslizamento ou desmatamento? Vem me contar!
+*5 -* Se informe sobre as ações do Instituto DuClima.
+*6 -* Me conte o que achou da Pré-Conferência realizada no Rio de Janeiro._
+
+_Por favor, responda com o número do item que deseja e vou adorar te ajudar! Foco no clima e nos nossos_ ✊🏿💚
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:42:40] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521993233208) Input: como vai?
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:42:44] "[35m[1mPOST /bot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:root:User (whatsapp:+5521993233208) Input: como vai?
+INFO:root:Bot Response to (whatsapp:+5521993233208): 
+Oie! Sou a *Aya*, a ativista climática digital que veio pra somar! 😄💚
+Tô aqui pra te ajudar com informações sobre o clima e meio ambiente no seu dia a dia.
+E você pode me chamar a qualquer momento para saber sobre:
+
+*1 -* Vamos revolucionar nossa quebrada: Dicas incríveis para proteger e lutar pelo meio ambiente.
+*2 -* Baixe nosso ebook para entender como agir para se proteger em desastres socioambientais e eventos extremos.
+*3 -* Orientações: Números de órgãos de apoio em situações de risco do seu território.
+*4 -* Existe algum problema no seu bairro com lixo, esgoto, risco de deslizamento ou desmatamento? Vem me contar!
+*5 -* Se informe sobre as ações do Instituto DuClima.
+*6 -* Me conte o que achou da Pré-Conferência realizada no Rio de Janeiro._
+
+_Por favor, responda com o número do item que deseja e vou adorar te ajudar! Foco no clima e nos nossos_ ✊🏿💚
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:43:55] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:root:User (whatsapp:+5521993233208) Input: oi
+INFO:root:Bot Response to (whatsapp:+5521993233208): 
+Oie! Sou a *Aya*, a ativista climática digital que veio pra somar! 😄💚
+Tô aqui pra te ajudar com informações sobre o clima e meio ambiente no seu dia a dia.
+E você pode me chamar a qualquer momento para saber sobre:
+
+*1 -* Vamos revolucionar nossa quebrada: Dicas incríveis para proteger e lutar pelo meio ambiente.
+*2 -* Baixe nosso ebook para entender como agir para se proteger em desastres socioambientais e eventos extremos.
+*3 -* Orientações: Números de órgãos de apoio em situações de risco do seu território.
+*4 -* Existe algum problema no seu bairro com lixo, esgoto, risco de deslizamento ou desmatamento? Vem me contar!
+*5 -* Se informe sobre as ações do Instituto DuClima.
+*6 -* Me conte o que achou da Pré-Conferência realizada no Rio de Janeiro._
+
+_Por favor, responda com o número do item que deseja e vou adorar te ajudar! Foco no clima e nos nossos_ ✊🏿💚
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:55:17] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:root:User (whatsapp:+5521993233208) Input: oi
+INFO:root:Bot Response to (whatsapp:+5521993233208): 
+Oie! Sou a *Aya*, a ativista climática digital que veio pra somar! 😄💚
+Tô aqui pra te ajudar com informações sobre o clima e meio ambiente no seu dia a dia.
+E você pode me chamar a qualquer momento para saber sobre:
+
+*1 -* Vamos revolucionar nossa quebrada: Dicas incríveis para proteger e lutar pelo meio ambiente.
+*2 -* Baixe nosso ebook para entender como agir para se proteger em desastres socioambientais e eventos extremos.
+*3 -* Orientações: Números de órgãos de apoio em situações de risco do seu território.
+*4 -* Existe algum problema no seu bairro com lixo, esgoto, risco de deslizamento ou desmatamento? Vem me contar!
+*5 -* Se informe sobre as ações do Instituto DuClima.
+*6 -* Me conte o que achou da Pré-Conferência realizada no Rio de Janeiro._
+
+_Por favor, responda com o número do item que deseja e vou adorar te ajudar! Foco no clima e nos nossos_ ✊🏿💚
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:57:25] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:root:User (whatsapp:+5521993233208) Input: oi
+INFO:root:Bot Response to (whatsapp:+5521993233208): 
+Oie! Sou a *Aya*, a ativista climática digital que veio pra somar! 😄💚
+Tô aqui pra te ajudar com informações sobre o clima e meio ambiente no seu dia a dia.
+E você pode me chamar a qualquer momento para saber sobre:
+
+*1 -* Vamos revolucionar nossa quebrada: Dicas incríveis para proteger e lutar pelo meio ambiente.
+*2 -* Baixe nosso ebook para entender como agir para se proteger em desastres socioambientais e eventos extremos.
+*3 -* Orientações: Números de órgãos de apoio em situações de risco do seu território.
+*4 -* Existe algum problema no seu bairro com lixo, esgoto, risco de deslizamento ou desmatamento? Vem me contar!
+*5 -* Se informe sobre as ações do Instituto DuClima.
+*6 -* Me conte o que achou da Pré-Conferência realizada no Rio de Janeiro._
+
+_Por favor, responda com o número do item que deseja e vou adorar te ajudar! Foco no clima e nos nossos_ ✊🏿💚
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:59:08] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521993233208) Input: como vai?
+INFO:root:Bot Response to (whatsapp:+5521993233208): 
+Oie! Sou a *Aya*, a ativista climática digital que veio pra somar! 😄💚
+Tô aqui pra te ajudar com informações sobre o clima e meio ambiente no seu dia a dia.
+E você pode me chamar a qualquer momento para saber sobre:
+
+*1 -* Vamos revolucionar nossa quebrada: Dicas incríveis para proteger e lutar pelo meio ambiente.
+*2 -* Baixe nosso ebook para entender como agir para se proteger em desastres socioambientais e eventos extremos.
+*3 -* Orientações: Números de órgãos de apoio em situações de risco do seu território.
+*4 -* Existe algum problema no seu bairro com lixo, esgoto, risco de deslizamento ou desmatamento? Vem me contar!
+*5 -* Se informe sobre as ações do Instituto DuClima.
+*6 -* Me conte o que achou da Pré-Conferência realizada no Rio de Janeiro._
+
+_Por favor, responda com o número do item que deseja e vou adorar te ajudar! Foco no clima e nos nossos_ ✊🏿💚
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 16:59:34] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5521993233208) Input: 1
+INFO:root:Sessão expirada para o número de telefone whatsapp:+5521993233208
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 17:03:30] "POST /bot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/lokaszoras/duclima/chatbot-aya/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 763-545-874
+INFO:root:User (whatsapp:+5521993233208) Input: oi
+INFO:root:Bot Response to (whatsapp:+5521993233208): 
+Oie! Sou a *Aya*, a ativista climática digital que veio pra somar! 😄💚
+Tô aqui pra te ajudar com informações sobre o clima e meio ambiente no seu dia a dia.
+E você pode me chamar a qualquer momento para saber sobre:
+
+*1 -* Vamos revolucionar nossa quebrada: Dicas incríveis para proteger e lutar pelo meio ambiente.
+*2 -* Baixe nosso ebook para entender como agir para se proteger em desastres socioambientais e eventos extremos.
+*3 -* Orientações: Números de órgãos de apoio em situações de risco do seu território.
+*4 -* Existe algum problema no seu bairro com lixo, esgoto, risco de deslizamento ou desmatamento? Vem me contar!
+*5 -* Se informe sobre as ações do Instituto DuClima.
+*6 -* Me conte o que achou da Pré-Conferência realizada no Rio de Janeiro._
+
+_Por favor, responda com o número do item que deseja e vou adorar te ajudar! Foco no clima e nos nossos_ ✊🏿💚
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 17:05:00] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5511957060159) Input: oi
+INFO:root:Bot Response to (whatsapp:+5511957060159): 
+Oie! Sou a *Aya*, a ativista climática digital que veio pra somar! 😄💚
+Tô aqui pra te ajudar com informações sobre o clima e meio ambiente no seu dia a dia.
+E você pode me chamar a qualquer momento para saber sobre:
+
+*1 -* Vamos revolucionar nossa quebrada: Dicas incríveis para proteger e lutar pelo meio ambiente.
+*2 -* Baixe nosso ebook para entender como agir para se proteger em desastres socioambientais e eventos extremos.
+*3 -* Orientações: Números de órgãos de apoio em situações de risco do seu território.
+*4 -* Existe algum problema no seu bairro com lixo, esgoto, risco de deslizamento ou desmatamento? Vem me contar!
+*5 -* Se informe sobre as ações do Instituto DuClima.
+*6 -* Me conte o que achou da Pré-Conferência realizada no Rio de Janeiro._
+
+_Por favor, responda com o número do item que deseja e vou adorar te ajudar! Foco no clima e nos nossos_ ✊🏿💚
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 17:05:09] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5511957060159) Input: 2
+INFO:root:Bot Response to (whatsapp:+5511957060159): 
+Oie! Sou a *Aya*, a ativista climática digital que veio pra somar! 😄💚
+Tô aqui pra te ajudar com informações sobre o clima e meio ambiente no seu dia a dia.
+E você pode me chamar a qualquer momento para saber sobre:
+
+*1 -* Vamos revolucionar nossa quebrada: Dicas incríveis para proteger e lutar pelo meio ambiente.
+*2 -* Baixe nosso ebook para entender como agir para se proteger em desastres socioambientais e eventos extremos.
+*3 -* Orientações: Números de órgãos de apoio em situações de risco do seu território.
+*4 -* Existe algum problema no seu bairro com lixo, esgoto, risco de deslizamento ou desmatamento? Vem me contar!
+*5 -* Se informe sobre as ações do Instituto DuClima.
+*6 -* Me conte o que achou da Pré-Conferência realizada no Rio de Janeiro._
+
+_Por favor, responda com o número do item que deseja e vou adorar te ajudar! Foco no clima e nos nossos_ ✊🏿💚
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 17:05:30] "POST /bot HTTP/1.1" 200 -
+INFO:root:User (whatsapp:+5511957060159) Input: 1
+INFO:root:Bot Response to (whatsapp:+5511957060159): 
+Oie! Sou a *Aya*, a ativista climática digital que veio pra somar! 😄💚
+Tô aqui pra te ajudar com informações sobre o clima e meio ambiente no seu dia a dia.
+E você pode me chamar a qualquer momento para saber sobre:
+
+*1 -* Vamos revolucionar nossa quebrada: Dicas incríveis para proteger e lutar pelo meio ambiente.
+*2 -* Baixe nosso ebook para entender como agir para se proteger em desastres socioambientais e eventos extremos.
+*3 -* Orientações: Números de órgãos de apoio em situações de risco do seu território.
+*4 -* Existe algum problema no seu bairro com lixo, esgoto, risco de deslizamento ou desmatamento? Vem me contar!
+*5 -* Se informe sobre as ações do Instituto DuClima.
+*6 -* Me conte o que achou da Pré-Conferência realizada no Rio de Janeiro._
+
+_Por favor, responda com o número do item que deseja e vou adorar te ajudar! Foco no clima e nos nossos_ ✊🏿💚
+
+INFO:werkzeug:127.0.0.1 - - [19/Aug/2023 17:07:22] "POST /bot HTTP/1.1" 200 -
